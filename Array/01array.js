@@ -22,3 +22,6 @@ console.log(fl, ": for floor ");
 console.log(rd, ": for round ");
 console.log(tr, ": for trunc ");
 console.log(cel, ": for ceil ");
+
+console.log(Math.pow(2, 5)); // give square value
+console.log(Math.sqrt(25)); // give square root
