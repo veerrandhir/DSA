@@ -25,3 +25,9 @@ console.log(cel, ": for ceil ");
 
 console.log(Math.pow(2, 5)); // give square value
 console.log(Math.sqrt(25)); // give square root
+
+console.log(Math.cbrt(69));
+console.log(Math.min[(45, 64, 974, 6498, 48489, 64984, 65897, 7865)]);
+console.log(Math.max[(25, 65, 565, 987, 967, 467489, 458)]);
+console.log(Math.random());
+// console.log(tofix(fl));
