@@ -1,6 +1,6 @@
-let age = prompt("What is your age");
-age = Number(age);
-console.log("your age is :", age);
+// let age = prompt("What is your age");
+// let age = Number(age);
+// console.log("your age is :", age);
 
 let a = 20;
 let b = 30;
@@ -9,3 +9,16 @@ let c = b;
 b = a;
 
 console.log(c);
+//maths
+// console.log(Math.round)
+let ce = Math.ceil(89.25);
+let rd = Math.round(95.2, "Rounded Value");
+let fl = Math.floor(110.56, "Floor value");
+let tr = Math.trunc(10.8, "Truncat value");
+let cel = Math.ceil(10.1, "ceil val");
+
+console.log(ce, ": for ceil ");
+console.log(fl, ": for floor ");
+console.log(rd, ": for round ");
+console.log(tr, ": for trunc ");
+console.log(cel, ": for ceil ");
