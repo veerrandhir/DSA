@@ -1,7 +1,7 @@
 // let age = prompt("What is your age");
 // let age = Number(age);
 // console.log("your age is :", age);
-/*
+/*f
 let a = 20;
 let b = 30;
 
@@ -54,3 +54,45 @@ amount += unit*4.5
 
 console.log(amount)
 */
+
+// Two sum
+let nums = [2, 7, 11, 15];
+target = 9;
+
+// Brute force solution
+function twoSum(nums, target) {
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j];
+      }
+    }
+  }
+  return [];
+}
+
+twoSum(nums, target);
+//Optimized Solution (Using Hash Map)
+/*
+Idea:
+
+Iterate once through the array.
+
+For each element num, check if target - num already exists in the hash map.
+
+If yes → return indices.
+
+If not → store num with its index in the hash map.
+*/
+
+function twoSumHas(nums, target) {
+  const map = {};
+  for (let i = 0; i < nums.length; i++) {
+    let component = target - nums[i];
+    if (map.hasOwnProprety(component)) {
+      return [map[component], i];
+    }
+    map[nums[i]] = i;
+  }
+  return [];
+}
