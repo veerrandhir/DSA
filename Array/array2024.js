@@ -1,9 +1,9 @@
-// Here u will keep Array questions and its answer
+// Here I will keep Array questions and its answer
 
 /*
 let arr = [15, 465, 4564, 4568];
 
-let max = arr[0]; // cconsiderring first element as max
+let max = arr[0]; // considering first element as max
 let sMax = [];
 
 for (let i = 1; i < arr.length; i++) {

@@ -1,7 +1,7 @@
 // let age = prompt("What is your age");
 // let age = Number(age);
 // console.log("your age is :", age);
-
+/*
 let a = 20;
 let b = 30;
 
@@ -31,3 +31,26 @@ console.log(Math.min[(45, 64, 974, 6498, 48489, 64984, 65897, 7865)]);
 console.log(Math.max[(25, 65, 565, 987, 967, 467489, 458)]);
 console.log(Math.random());
 // console.log(tofix(fl));
+*/
+
+/*
+// Electricity bill calculator 
+let unit = 700 ;
+let amount = 0;
+if(unit> 400){
+    amount += (unit -400)*13
+    unit = 400
+}
+if (unit > 200){
+    amount += (unit -200)*8
+    unit = 200
+}
+if (unit > 100){
+    amount += (unit - 100)*6
+    unit = 100
+}
+amount += unit*4.5
+
+
+console.log(amount)
+*/
