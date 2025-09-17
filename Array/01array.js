@@ -84,7 +84,7 @@ If yes → return indices.
 
 If not → store num with its index in the hash map.
 */
-
+/*
 function twoSumHas(nums, target) {
   const map = {};
   for (let i = 0; i < nums.length; i++) {
@@ -96,3 +96,14 @@ function twoSumHas(nums, target) {
   }
   return [];
 }
+*/
+
+//How we can create an Arry and asign value into it using prompt
+/*
+let arr = [];
+for (let i = 0; i < 5; i++) {
+  let newNum = Number(prompt("Enter a value:"));
+  arr.push(newNum);
+}
+console.log(arr);
+*/
