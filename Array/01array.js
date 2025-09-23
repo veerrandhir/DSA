@@ -128,3 +128,32 @@ while (i <= arr.length) {
 
 console.log(arr);
 */
+let string = "MCD";
+function romanToInt(string) {
+  const roman = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
+  let sum = 0;
+  for (let i = 0; i < string.length; i++) {
+    if (roman[string[i]] < roman[string[i + 1]]) {
+      sum -= roman[string[i]];
+    } else {
+      sum += roman[string[i]];
+      console.log(
+        `At ${string[i]}: ${roman[string[i]]}, next is ${string[i + 1]}: ${
+          roman[string[i + 1]]
+        }`
+      );
+    }
+  }
+  return sum;
+}
+
+console.log(romanToInt(string));
+console.log("i am roman to int");
