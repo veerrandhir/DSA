@@ -128,6 +128,8 @@ while (i <= arr.length) {
 
 console.log(arr);
 */
+
+/*
 let string = "MCD";
 function romanToInt(string) {
   const roman = {
@@ -156,4 +158,54 @@ function romanToInt(string) {
 }
 
 console.log(romanToInt(string));
-console.log("i am roman to int");
+console.log("i am roman to int"); */
+
+/* Wrong code// X
+
+let a = [1, 2, 17, 34];
+let b = [1, 2, 3, 8, 12, 24];
+
+let lena = a.length;
+let lenb = b.length;
+let min = Math.min(lena, lenb);
+console.log(min);
+
+console.log("inside fn", min);
+for (let i = min; i >= 0; i--) {
+  console.log("inside fjorloop ", min);
+}
+
+console.log(min);
+
+// findHcf(a, b, min);
+
+// let array = b;
+// for (let i = 0; i < array.length; i++) {
+//   console.log(array[i]);
+// }
+
+
+
+// Right code mistake in returning // 
+function findHcf(){
+
+let a = 34
+let b = 24
+
+for(let i = b; i >= 0; i--){
+    console.log("it has not been called", b,a,i)
+    if(a % i == 0 &&  b%i ==0){
+        console.log("hcf of ", a , "and", b, "is ", i)
+        return i
+    }// i were returning in else position due to which my code was not getting into loop
+    
+    
+    
+}return 0
+
+}
+
+
+findHcf()
+
+*/
