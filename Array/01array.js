@@ -208,4 +208,19 @@ for(let i = b; i >= 0; i--){
 
 findHcf()
 
+
+*/
+/*
+Standered way to print factorial numbers
+
+// find factor of a  given no
+let n = 45;
+for (let i = 0; i < Math.floor(Math.sqrt(n)); i++) {
+  if (n % i == 0) {
+    process.stdout.write(i + "");
+    if (n / i !== i) {
+      process.stdout.write(" " + n / i + " ");
+    }
+  }
+}
 */
