@@ -418,8 +418,8 @@ function result() {
 result();
 */
 
-let nums = [1, 2, 3, 5, 6];
-let target = 4;
+// let nums = [1, 2, 3, 5, 6];
+// let target = 4;
 // function searchInsert(nums, target) {
 //   console.log("Hey there I am your frined");
 //   for (let i = 0; i < nums.length; i++) {
@@ -435,7 +435,7 @@ let target = 4;
 //     }
 //   }
 // }
-
+/*
 function searchInsert(nums, target) {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] >= target) {
@@ -445,5 +445,37 @@ function searchInsert(nums, target) {
   }
   return console.log(nums.length);
 }
+  
 
-searchInsert(nums, target);
+searchInsert(nums, target);*/
+
+/*
+//  Binary search Revision
+
+let nums = [-1, 0, 3, 5, 9, 12];
+let target = 9;
+
+var search = function (nums, target) {
+  let i = 0;
+  let j = nums.length - 1;
+  while (i <= j) {
+    mid = Math.floor((j + i) / 2);
+    if (target == nums[mid]) {
+      return mid;
+    } else if (target > nums[mid]) {
+      i = mid + 1;
+    } else {
+      j = mid + 1;
+    }
+  }
+  return -1;
+};
+
+console.log(search(nums, target));
+
+console.log(Math.floor((0 + 5) / 2));
+
+
+// this solution I stuch in typo adn little logic such that in loop stop condition 
+
+*/
