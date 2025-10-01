@@ -1,7 +1,7 @@
 // Cyclic sort algorihm
 
 // 268. Missing Number  (Find missing number in the array)
-
+/*
 let nums = [3, 0, 1];
 function findMissing(nums) {
   let i = 0;
@@ -24,3 +24,17 @@ function findMissing(nums) {
 findMissing(nums);
 
 console.log(findMissing());
+*/
+
+// 1518. Water Bottels
+
+let numBottles = 9;
+let numExchange = 4;
+var numWaterBottles = function (numBottles, numExchange) {
+  if (numBottles === 0 && numExchange === 0) return 0;
+  if (numBottles > 0) {
+    if (numExchange > 0) {
+      return numBottles + (numExchange % 3) + 1; // tried to solve But for smaller echange no. adding more Q pattern is not clear
+    } else return numBottles;
+  }
+};
