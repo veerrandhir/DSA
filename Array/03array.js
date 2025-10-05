@@ -26,7 +26,9 @@ findMissing(nums);
 console.log(findMissing());
 */
 
+/*
 // 1518. Water Bottels
+
 
 let numBottles = 9;
 let numExchange = 4;
@@ -38,3 +40,5 @@ var numWaterBottles = function (numBottles, numExchange) {
     } else return numBottles;
   }
 };
+
+*/
