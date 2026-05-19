@@ -1,0 +1,31 @@
+console.log("leetcode Problem  Find minimum value among these two arrya");
+
+let nums1 = [1,2 ,3]
+let nums2 = [2,4]
+
+console.log("hello ")
+let min = Infinity
+let commonMin = Infinity
+
+
+
+
+console.log(min)
+
+
+
+
+// Bruit force approach 
+
+// for(let i  = 0 ; i < nums1.length; i ++){
+//   for(let j = 0 ; j <nums2.length ; j ++){
+//     if(nums1[i] === nums2[j]){
+//       commonMin = Math.min (nums2[j], nums1[i])
+      
+//     }
+//     min = Math.min(commonMin, min)
+    
+   
+// }
+  
+// }
